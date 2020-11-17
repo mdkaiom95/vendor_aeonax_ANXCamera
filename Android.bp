@@ -39,8 +39,8 @@ android_app_import {
         name: "anxres",
         owner: "anxres",
         apk: "proprietary/system/app/anxres/anxres.apk",
-        certificate: "platform",
         dex_preopt: {
                 enabled: false,
+	presigned: true,
         },
 }
